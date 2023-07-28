@@ -47,18 +47,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        {/* <Route exact path="/" component={LandingPage}></Route>
-        <Route exact path="/LoginPage" component={LoginPage}></Route> */}
-        <Route exact path="/LandingPage" component={Landing}></Route>
-        {/* <ProtectedRoute path="/Dashboard" component={Dashboard}/>
-        <Route exact path="/Generate" component={Generate}></Route>
-        <Route exact path="/ClickPage" component={ClickPage}></Route>
-        <Route exact path="/Dashboard_Ticket" component={Dashboard_Ticket}></Route>
-        <Route exact path="/Dashboard_Sales" component={Dashboard_Sales}></Route>
-        <Route exact path="/TestCode" component={TestCode}></Route>
-        <Route exact path="/EditPrice" component={EditPrice}></Route>
-        <Route exact path="/EditVoucher" component={EditVoucher}></Route>
-        <Route exact path="/Booking" component={Booking}></Route> */}
+        <Route exact path="/" component={Landing}></Route>
+        {/* <Route exact path="/LoginPage" component={LoginPage}></Route> */}
+     
       </Routes>
     </div>
   );
